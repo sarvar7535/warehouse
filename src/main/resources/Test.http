@@ -1,0 +1,42 @@
+###warehouse
+GET http://localhost:80/warehouse/getAll
+
+###
+GET http://localhost:80/warehouse/byId/2
+
+###
+POST http://localhost:80/warehouse/add
+Content-Type: application/json
+
+{
+  "name": "AAAgqqqqqqqq"
+}
+###
+PUT http://localhost:80/warehouse/edit/81
+Content-Type: application/json
+
+{
+  "name": "warehouse 111"
+}
+
+###User
+GET http://localhost:80/user/getAll
+
+###
+GET http://localhost:80/user/ById/5
+
+###
+POST http://localhost:80/user/add
+Content-Type: application/json
+
+{
+
+  "firstName": "null",
+  "lastName": "null",
+  "phoneNumber": "null",
+  "code": "",
+  "warehouseList": "null",
+  "password": null,
+  "active": true
+
+}
